@@ -8,12 +8,47 @@
 	min-height: 100%;
 }
 
+.clearFloat {
+	clear: both;
+}
+
+.rightFloat {
+	float: right;
+}
+
+.leftFloat {
+	float: left;
+}
+
+.tealText {
+	color: #4aaaa5;
+}
+
+.navBarBox {
+	height: 60px;
+	margin: 0 auto;
+	min-width: 960px;
+	max-width: 960px;
+	position: relative;
+}
+
+.navBarTextBox {
+	margin-top: 20px;
+}
+
 .name {
 	background-color: #4aaaa5;
 	float: left;
 	height: 20px;
 	padding: 20px;
 	color: white;
+	font-size: 20px;
+}
+
+.pageBodyBox {
+	margin: 0 auto;
+	min-width: 960px;
+	max-width: 960px
 }
 
 .footer {
@@ -30,37 +65,21 @@
 	bottom: 0;
 }
 
-.tealText {
-	color: #4aaaa5;
-}
-
 .aboutMeTextBox {
 	padding: 20px;
-}
-
-.clearFloat {
-	clear: both;
-}
-
-.rightFloat {
-	float: right;
-}
-
-.leftFloat {
-	float: left;
 }
 
 .justinCarlsonImg {
 	width: 150px;
 	border: solid lightgrey 3px;
 	float: left;
-	margin: 10px;
+	margin: 0px 10px 10px;
+	box-sizing: border-box;
 }
 
 .aboutMeBox {
-	width: 500px;
+	width: 650px;
 	height: 300px;
-	margin-right: 50px;
 	margin-top: 40px;
 	background-color: white;
 	border: solid lightgrey 3px;
@@ -70,7 +89,7 @@
 
 
 .connectWithMeBox {
-	width: 300px;
+	width: 270px;
 	height: 150px;
 	margin-top: 40px;
 	background-color: white;
@@ -84,32 +103,13 @@
 	padding: 5px 0px 10px 80px;
 }
 
-.pageBodyBox {
-	margin: 0 auto;
-	min-width: 960px;
-	max-width: 960px
-}
-
-.navBarBox {
-	height: 60px;
-	margin: 0 auto;
-	min-width: 960px;
-	max-width: 960px;
-	position: relative;
-}
-
-.navBarTextBox {
-	margin-top: 20px;
-}
-
 .bgImg {
 	background-image: url('../images/background.jpg');
 	width: 100%;
 	height: 100%;
-	margin: 100px, auto;
 }
 
-.imgResize {
+.imgLogoResize {
 	width: 20%;
 }
 
