@@ -120,6 +120,10 @@ li {
 	position: absolute;
 }
 
+.contactSubBox {
+	padding: 15px;
+}
+
 .connectWithMeTextBox {
 	padding: 5px 0px 2px 55px;
 	font-size: 16px;
@@ -135,4 +139,34 @@ li {
 	width: 23%;
 }
 
+textarea {
+	height: 225px;
+	max-height: 220px;
+	width: 620px;
+	max-width: 620px;
+	margin: 5px 0px 10px;
+	border: 1px solid #dddddd;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
 
+input {
+	width: 250px;
+	margin: 3px 0px 10px;
+	border: 1px solid #dddddd;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+#button {
+	background-color: #4aaaa5;
+	color: white;
+	border: 1px solid #dddddd;
+	padding: 6px 10px;
+}
+
+.opacity:hover {
+	    opacity: .7;
+	}
