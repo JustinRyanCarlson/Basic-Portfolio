@@ -34,6 +34,13 @@ li {
 	line-height: 125%
 }
 
+.portfolioWhite {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	font-size: 18px;
+	margin: 15px 0px 0px 94px;
+}
+
 .tealText {
 	color: #4aaaa5;
 }
@@ -130,7 +137,7 @@ li {
 }
 
 .bgImg {
-	background-image: url('../images/cork-wallet.png');
+	background-image: url(../images/cork-wallet.png);
 	width: 100%;
 	height: 90%;
 }
@@ -140,11 +147,11 @@ li {
 }
 
 textarea {
-	height: 225px;
-	max-height: 220px;
+	height: 205px;
+	max-height: 205px;
 	width: 620px;
 	max-width: 620px;
-	margin: 5px 0px 10px;
+	margin: 5px 0px 3px;
 	border: 1px solid #dddddd;
 	-moz-border-radius:5px;
     -webkit-border-radius:5px;
@@ -170,3 +177,45 @@ input {
 .opacity:hover {
 	    opacity: .7;
 	}
+
+.opacitySoon {
+	opacity: .8;
+}
+
+.portfolioImgBox {
+	width: 300px;
+	height: 200px;
+	border: solid #dddddd 1px;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.portfolioImgTextBox {
+	width: 300px;
+	height: 50px;
+	background-color: #4aaaa5;
+	margin-top: 125px;
+	z-index: 3;
+	position: absolute;
+}
+
+.portfolioImgResize {
+	height: 200px;
+	z-index: 2;
+}
+
+.portfolioMargin {
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+.projectsBox {
+	width: 650px;
+	height: 485px;
+	margin-top: 40px;
+	background-color: #ffffff;
+	border: solid #dddddd 1px;
+	box-sizing: border-box;
+	position: relative;
+}
