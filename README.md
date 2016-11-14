@@ -1,5 +1,6 @@
 # Basic-Portfolio
-Homework 1 Personal Portfolio
+
+Personal Portfolio using plain HTML.
 
 Link to Heroku app:
 
